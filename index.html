@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Project management utility</title>
+    <script src="dist/js/utility.js"></script>
+    <script src="dist/js/localstorage.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="main--addproject">
+        <div class="section__addproject" method="post">
+          <div>
+            <label for="title">Title</label>
+            <input type="text" name="title" type="text" />
+          </div>
+          <div>
+            <label for="description">Description</label>
+            <textarea rows="5" cols="100" name="description"> </textarea>
+          </div>
+          <div>
+            <label for="people">People</label>
+            <input type="text" name="people" type="text" />
+          </div>
+          <button id="submit" type="submit">ADD PROJECTS</button>
+        </div>
+      </section>
+      <section class="main__activeprojects">
+        <h3>ACTIVE PROJECTS</h3>
+        <div class="project_wrapper"></div>
+      </section>
+      <section class="main__finishedprojects" id="main__finishedprojects">
+        <h3>FINISHED PROJECTS</h3>
+        <div id="finishedProjects"></div>
+      </section>
+    </main>
+    <script src="dist/app.js"></script>
+  </body>
+</html>

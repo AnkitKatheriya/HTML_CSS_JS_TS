@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.main {
+    width: 60%;
+    margin:20px auto; 
+    padding: 20px;  
+    border: 1px solid #000000; 
+}
+
+.main--addproject {
+    border: 2px solid #ff0000;
+    box-shadow: 1px 0 1px #ff0000;
+}
+
+.section__addproject {
+    margin: 20px; 
+    width: 80%;   
+}    
+
+.main__activeprojects{
+    border: 2px solid #ff0000;
+    box-shadow: 1px 0 1px #ff0000;
+    min-height: 100px;
+    background-color: #fde1dc;
+}
+
+.main__activeprojects > h3 {
+    background-color: #ff0000;
+}
+
+.main__finishedprojects > h3 {
+    background-color: #0000ff;
+}
+
+.main__finishedprojects{
+    border: 2px solid #0000ff;
+    box-shadow: 1px 0 1px #0000ff;
+    min-height: 100px;
+}
+
+#finishedProjects {
+    width: 100%;
+    min-height: inherit;
+}
+
+.main__activeprojects > h3, .main__finishedprojects > h3 {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.main__activeprojects, .main__finishedprojects {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    min-height: 25px;;
+}
+
+button {
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+template {
+    min-height: 50px;
+}
+
+.project_wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    line-height: 2.5em;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px #cd5c5c;
+    justify-content: left;
+    word-spacing: inherit;
+    font-weight: bold;
+}
+
+.card h3 {
+    color: #ff0000;
+    text-transform: capitalize;
+}

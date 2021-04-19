@@ -1,0 +1,19 @@
+{
+  "name": "html_css_js_ts",
+  "version": "1.0.0",
+  "description": "Managing projects utility with drag and drop feature.",
+  "main": "dist/app.js",
+  "scripts": {
+    "watch:build": "tsc --watch",
+    "lite-server": "lite-server",
+    "start": "concurrently --kill-others \"npm run watch:build\" \"npm run lite-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Katheriya",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.9.6"
+  }
+}
